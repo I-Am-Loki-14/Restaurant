@@ -57,3 +57,12 @@ nav{
     transition: 0.5s;
     box-shadow: inset 0 0 3px #e27c10;
 }
+#bars{
+    background-color: cyan;
+    padding: 4px 7px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: blue;
+    display: none;
+    cursor: pointer;
+}
