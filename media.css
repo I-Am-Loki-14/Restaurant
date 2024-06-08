@@ -8,4 +8,29 @@
     .social-links{
         display: none;
     }
+        .nav-links {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            right: 0;
+            background: var(--black-color);
+            padding: 35px 200px;
+            /* display: none; */
+            transform: translateX(-100%);
+            transition: 0.9s;
+    
+        }
+        .show{
+            /* display: block; */
+            transform: translate(0%);
+        }
+    .nav-links a{
+        display: block;
+        text-align: center;
+        margin-bottom:15px;
+    }
+    .nav-links :last-child{
+        margin-bottom: 0;
+    }
+        
 }
