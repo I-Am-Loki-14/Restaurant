@@ -8,15 +8,22 @@
     .social-links{
         display: none;
     }
+
+    .emoji-1{
+        display: none;
+    }
+        .emoji-2 {
+            display: none;
+        }
         .nav-links {
             position: absolute;
             top: 100px;
             left: 0;
             right: 0;
             background: var(--black-color);
-            padding: 35px 200px;
+            padding: 35px 100px;
             /* display: none; */
-            transform: translateX(-100%);
+            transform: translatex(-150%);
             transition: 0.9s;
     
         }
@@ -33,4 +40,77 @@
         margin-bottom: 0;
     }
         
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 40px;
+}
+
+.about {
+    background: url(./img/ph-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* About section  */
+
+.about-img-desc-containner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.about-img-container,
+.about-ocean-description {
+    flex: 1;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about-ocean-description {
+    background-color: #fee49791;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.about-title {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.product {
+    background: url(./img/ph-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact {
+    background: url(./img/ph-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.service {
+    background: url(./img/ph-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }

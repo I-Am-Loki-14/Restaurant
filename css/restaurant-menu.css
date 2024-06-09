@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: Nunito;
     color: var(--white-color);
+    scroll-behavior: smooth;
 }
 :root {
     --primary-color:#c4ae5fe7;
@@ -64,7 +65,7 @@ nav{
 .nav-links a:hover{
     color:var(--white-color);
     transition: 0.5s;
-    box-shadow: inset 0 0 3px var(--black-color);
+    box-shadow: inset 0 0 3px var(--btn-color);
 }
 #bars{
     /* background-color:var(--primary-color); */
@@ -78,15 +79,17 @@ nav{
 /* Banner  */
 .banner{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     /* background-color: red; */
     transform: translate(-50%,-30%);
     padding: 30px;
     text-align: center;
+    width: 90%;
 }
 .banner h2{
     margin: 20px;
+    font-size:2.1em; 
 } 
 .btn{
   background: var(--btn-color);
@@ -95,4 +98,31 @@ nav{
   color: var(--black-color);
   font-weight: bold;
   border: none;
+}
+.emoji-1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    border-radius: 50%;
+    top: 50%;
+    left: 10%;
+
+}
+.emoji-2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    border-radius: 50%;
+    top: 20%;
+    right: 10%;
+
+}
+.photo{
+    width: 100px;
+    position: absolute;
+  top: 10%;
+  left: 20%;
+
 }
